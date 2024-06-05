@@ -15,5 +15,4 @@ function evenOdd(arr){
         // }
     }
 }
-/,m 
 console.log(evenOdd(arr))  
