@@ -1,0 +1,1 @@
+// Check if input variable is a number or not
