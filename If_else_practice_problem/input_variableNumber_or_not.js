@@ -18,4 +18,4 @@ console.log("Increment: " + x);               // 11
 x--;  // Decrement x by 1
 console.log("Decrement: " + x);     
 
-// 10
+// 
