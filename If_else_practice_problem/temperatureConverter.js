@@ -2,13 +2,18 @@
 
 let n = [5,1,1,2,2,4]
 let num = +n[0]
-let array = []
+let arr = []
 for(let i = 1; i < n.length ; i++){
-    array += n[i]
+    arr += n[i]
   
 }
-console.log(array)
-
-for(let i=0; i<array.length; i++){
-    
+console.log(arr)
+let store = ""
+for(let i=0; i<arr.length; i++){
+    if(arr[i] === arr[i+1]){
+        store +=  arr[i]
+        // console.log(store)
+    }
+    // console.log(store)
 }
+console.log(Math.max(store.split("")))
