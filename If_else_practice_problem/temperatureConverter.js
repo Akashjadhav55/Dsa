@@ -8,12 +8,14 @@ for(let i = 1; i < n.length ; i++){
   
 }
 console.log(arr)
-let store = ""
+let store = "";
+let count = 0
 for(let i=0; i<arr.length; i++){
     if(arr[i] === arr[i+1]){
-        store +=  arr[i]
+        // store +=  arr[i]
+        count++;
         // console.log(store)
     }
     // console.log(store)
 }
-console.log(Math.max(store.split("")))
+
