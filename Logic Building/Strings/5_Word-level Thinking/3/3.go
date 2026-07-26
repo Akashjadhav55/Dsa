@@ -1,7 +1,23 @@
-﻿package main
+﻿// Q3: Find the longest word in a sentence.
+// Input: A sentence
+// Output: The longest word
 
-import "fmt"
+package main
+
+import (
+    "fmt"
+    "strings"
+)
 
 func main() {
-	fmt.Println()
+    var s string
+    fmt.Scanln(&s)
+    words := strings.Fields(s)
+    longest := words[0]
+    for _, w := range words {
+        if len(w) > len(longest) {
+            longest = w
+        }
+    }
+    fmt.Println(longest)
 }

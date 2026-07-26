@@ -1,7 +1,23 @@
-﻿package main
+﻿// Q2: Count how many words have even length.
+// Input: A sentence
+// Output: Count of even-length words
 
-import "fmt"
+package main
+
+import (
+    "fmt"
+    "strings"
+)
 
 func main() {
-	fmt.Println()
+    var s string
+    fmt.Scanln(&s)
+    words := strings.Fields(s)
+    count := 0
+    for _, w := range words {
+        if len(w)%2 == 0 {
+            count++
+        }
+    }
+    fmt.Println(count)
 }

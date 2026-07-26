@@ -1,0 +1,13 @@
+// Q5: Take income and age, and check if eligible for tax (age > 18 and income > 5 L).
+// Input: Income (integer) and Age (integer)
+// Output: "Taxable" or "Not Taxable"
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        // Write your solution here
+
+    }
+}

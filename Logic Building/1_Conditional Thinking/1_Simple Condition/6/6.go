@@ -1,7 +1,12 @@
-﻿package main
+﻿// Q6: Take two numbers and print the larger one.
+// Input: Two integers
+// Output: The larger number
+
+package main
 
 import "fmt"
 
 func main() {
-	fmt.Println()
+    // Write your solution here
+
 }

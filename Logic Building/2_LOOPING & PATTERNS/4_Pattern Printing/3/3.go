@@ -1,7 +1,16 @@
-﻿package main
+﻿// Q3: Print n stars on same line.
+// Input: An integer n
+// Output: n stars on one line
 
-import "fmt"
+package main
+
+import (
+    "fmt"
+    "strings"
+)
 
 func main() {
-	fmt.Println()
+    var n int
+    fmt.Scan(&n)
+    fmt.Println(strings.Repeat("*", n))
 }

@@ -1,7 +1,26 @@
-﻿package main
+﻿// Q5: Find the difference between the largest and smallest element.
+// Input: Size n, then n integers
+// Output: Difference (max - min)
+
+package main
 
 import "fmt"
 
 func main() {
-	fmt.Println()
+    var n int
+    fmt.Scan(&n)
+    arr := make([]int, n)
+    for i := 0; i < n; i++ {
+        fmt.Scan(&arr[i])
+    }
+    max, min := arr[0], arr[0]
+    for i := 1; i < n; i++ {
+        if arr[i] > max {
+            max = arr[i]
+        }
+        if arr[i] < min {
+            min = arr[i]
+        }
+    }
+    fmt.Println(max - min)
 }

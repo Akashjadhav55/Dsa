@@ -1,7 +1,12 @@
-﻿package main
+﻿// Q5: Check if a number is a multiple of 7 or ends with 7.
+// Input: An integer
+// Output: "Yes" or "No"
+
+package main
 
 import "fmt"
 
 func main() {
-	fmt.Println()
+    // Write your solution here
+
 }

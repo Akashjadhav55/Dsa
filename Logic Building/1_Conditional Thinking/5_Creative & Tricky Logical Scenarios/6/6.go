@@ -1,7 +1,12 @@
-﻿package main
+﻿// Q6: Take three numbers and check if they are in geometric progression.
+// Input: Three integers
+// Output: "Yes" or "No"
+
+package main
 
 import "fmt"
 
 func main() {
-	fmt.Println()
+    // Write your solution here
+
 }

@@ -1,0 +1,9 @@
+# Q10: Check whether the string is empty or not.
+# Input: A string
+# Output: "Empty" or "Not Empty"
+
+s = input()
+if s == '':
+    print("Empty")
+else:
+    print("Not Empty")

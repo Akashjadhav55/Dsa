@@ -1,7 +1,12 @@
-﻿package main
+﻿// Q7: Take three numbers and print the largest.
+// Input: Three integers
+// Output: The largest number
+
+package main
 
 import "fmt"
 
 func main() {
-	fmt.Println()
+    // Write your solution here
+
 }

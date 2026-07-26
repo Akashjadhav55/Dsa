@@ -1,7 +1,16 @@
-﻿package main
+﻿// Q10: Remove extra spaces between words.
+// Input: A sentence
+// Output: Sentence with single spaces
 
-import "fmt"
+package main
+
+import (
+    "fmt"
+    "strings"
+)
 
 func main() {
-	fmt.Println()
+    var s string
+    fmt.Scanln(&s)
+    fmt.Println(strings.Join(strings.Fields(s), " "))
 }

@@ -1,7 +1,21 @@
-﻿package main
+﻿// Q22: Print diamond star pattern.
+// Input: An integer n
+// Output: Diamond shape with stars
 
-import "fmt"
+package main
+
+import (
+    "fmt"
+    "strings"
+)
 
 func main() {
-	fmt.Println()
+    var n int
+    fmt.Scan(&n)
+    for i := 1; i <= n; i++ {
+        fmt.Println(strings.Repeat(" ", n-i) + strings.Repeat("*", 2*i-1))
+    }
+    for i := n - 1; i >= 1; i-- {
+        fmt.Println(strings.Repeat(" ", n-i) + strings.Repeat("*", 2*i-1))
+    }
 }

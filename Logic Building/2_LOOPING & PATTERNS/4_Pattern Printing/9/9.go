@@ -1,7 +1,18 @@
-﻿package main
+﻿// Q9: Print a centered pyramid of stars.
+// Input: An integer n
+// Output: Centered pyramid pattern
 
-import "fmt"
+package main
+
+import (
+    "fmt"
+    "strings"
+)
 
 func main() {
-	fmt.Println()
+    var n int
+    fmt.Scan(&n)
+    for i := 1; i <= n; i++ {
+        fmt.Println(strings.Repeat(" ", n-i) + strings.Repeat("*", 2*i-1))
+    }
 }

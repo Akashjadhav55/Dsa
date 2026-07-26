@@ -1,7 +1,12 @@
-﻿package main
+﻿// Q6: Check voting eligibility for a given age (18+).
+// Input: Age (integer)
+// Output: "Eligible" or "Not Eligible"
+
+package main
 
 import "fmt"
 
 func main() {
-	fmt.Println()
+    // Write your solution here
+
 }

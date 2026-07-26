@@ -1,7 +1,12 @@
-﻿package main
+﻿// Q5: Take three numbers and check if they are in arithmetic progression.
+// Input: Three integers
+// Output: "Yes" or "No"
+
+package main
 
 import "fmt"
 
 func main() {
-	fmt.Println()
+    // Write your solution here
+
 }
