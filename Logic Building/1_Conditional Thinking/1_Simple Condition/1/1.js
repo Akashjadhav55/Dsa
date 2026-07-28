@@ -4,3 +4,4 @@
 
 // Write your solution here
 
+console.log("Enter a number:");
