@@ -8,5 +8,14 @@ import "fmt"
 
 func main() {
     // Write your solution here
+      var n int
+    fmt.Scan(&n)
+    if n > 0 {
+        fmt.Println("Positive")
+    } else if n < 0 {
+        fmt.Println("Negative")
+    } else {
+        fmt.Println("Zero")
+    }
 
 }
