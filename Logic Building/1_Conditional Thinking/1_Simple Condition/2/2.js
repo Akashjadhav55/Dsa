@@ -17,3 +17,7 @@ function checkEvenOdd(num) {
 
 console.log(checkEvenOdd(4)); // Output: "Even"
 console.log(checkEvenOdd(7)); // Output: "Odd"
+
+
+
+const readline = require('readline');

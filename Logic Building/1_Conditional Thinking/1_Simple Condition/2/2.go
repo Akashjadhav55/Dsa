@@ -9,7 +9,7 @@ import "fmt"
 func main() {
     // Write your solution here
 
-
+    fmt.Print("Enter a number: ")
 
 
     
