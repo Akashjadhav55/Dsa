@@ -8,7 +8,8 @@ import "fmt"
 
 func main() {
     // Write your solution here
-
+    var num int
+    fmt.Scanln(&num)
     fmt.Print("Enter a number: ")
 
 
