@@ -17,4 +17,14 @@ func main() {
         fmt.Println("Odd")
     }   
     
+
+
+    var num2 int = 7
+    if num2%2 == 0 {
+        fmt.Println("Even");
+    }else {
+        fmt.Println("Odd")
+    }
+    
+    
 }
