@@ -6,7 +6,14 @@ package main
 
 import "fmt"
 
-func main() {
-    // Write your solution here
-
+func main(){
+    var num int
+    fmt.Print("Enter the number :")
+    fmt.Scan(&num)
+    if num%5 == 0{
+        fmt.Println("Divisible by 5")
+    }else{
+        fmt.Println("Divisible not")
+    }
 }
+
