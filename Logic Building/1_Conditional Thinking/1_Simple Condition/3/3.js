@@ -5,19 +5,3 @@
 // Write your solution here
 
 
-
-const readline = require('readline');
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
