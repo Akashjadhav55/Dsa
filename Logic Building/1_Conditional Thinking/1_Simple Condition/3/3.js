@@ -4,4 +4,14 @@
 
 // Write your solution here
 
+const readline = require("readline").createInterface({ input: process.stdin });
+readline.on("line", (line) => {
+  const n = parseInt(line.trim());
 
+  if(n%5===0){
+    console.log("Number is Divisble By 5");
+  }else{
+    console.log("Number is Not Divisble By 5");
+  }
+  readline.close();
+});

@@ -4,3 +4,11 @@
 
 // Write your solution here
 
+
+
+const readline = require("readline").createInterface({ input: process.stdin });
+readline.on("line", (line) => {
+    const [a, b] = line.trim().split(" ").map(Number);
+    console.log(a > b ? a : b);
+    readline.close();
+})

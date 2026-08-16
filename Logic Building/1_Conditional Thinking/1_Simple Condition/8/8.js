@@ -4,3 +4,18 @@
 
 // Write your solution here
 
+
+const readline = require("readline").createInterface({ input: process.stdin });
+readline.on("line", (line) => {
+    const n = parseInt(line.trim());
+
+    if(n <= 15 ){
+        console.log("Cold");
+    }else if(n >= 15 && n <= 30){
+        console.log("Warm");
+    }else{
+        console.log("Hot");
+    }
+
+    readline.close();
+})
