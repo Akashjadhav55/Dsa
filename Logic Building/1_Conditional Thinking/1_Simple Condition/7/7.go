@@ -8,5 +8,14 @@ import "fmt"
 
 func main() {
     // Write your solution here
-
+    var a, b, c int
+    fmt.Print("Enter three numbers: ")
+fmt.Scan(&a, &b, &c)    
+    if a >= b && a >= c {
+        fmt.Println(a)
+    }else if b >= a && b >= c {
+        fmt.Println(b)
+    }else {
+        fmt.Println(c)
+    }
 }

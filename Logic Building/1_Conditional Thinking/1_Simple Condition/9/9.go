@@ -8,5 +8,6 @@ import "fmt"
 
 func main() {
     // Write your solution here
-
+    var ch rune
+    fmt.Print("Enter a character: ")
 }

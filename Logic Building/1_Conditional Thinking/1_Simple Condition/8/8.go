@@ -8,5 +8,15 @@ import "fmt"
 
 func main() {
     // Write your solution here
+    var temp int
+    fmt.Print("Enter temperature: ")
+    fmt.Scanln(&temp)
+    if temp < 15 {
+        fmt.Println("Cold")
+    } else if temp >= 15 && temp <= 30 {
+        fmt.Println("Warm")
+    } else {
+        fmt.Println("Hot")
+    }
 
 }
