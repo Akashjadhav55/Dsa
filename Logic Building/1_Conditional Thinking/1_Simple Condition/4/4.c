@@ -5,10 +5,14 @@
 #include <stdio.h>
 
 int main() {
-    // Write your solution here
+    int n;
+    scanf("%d", &n);
+
+    if (n % 3 == 0 && n % 5 == 0) {
+        printf("Divisible by both 3 and 5");
+    } else {
+        printf("Not divisible by both");
+    }
+
     return 0;
-
-
-
-    
 }
