@@ -2,5 +2,13 @@
 # Input: A single character
 # Output: "Uppercase", "Lowercase", "Digit", or "Special Character"
 
-# Write your solution here
+ch = input("Enter a character: ")
 
+if ch.isupper():
+    print("Uppercase")
+elif ch.islower():
+    print("Lowercase")
+elif ch.isdigit():
+    print("Digit")
+else:
+    print("Special Character")
