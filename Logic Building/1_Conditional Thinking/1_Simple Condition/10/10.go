@@ -7,6 +7,17 @@ package main
 import "fmt"
 
 func main() {
-    // Write your solution here
+    var ch rune
+    fmt.Scanf("%c", &ch)
 
+    switch {
+    case ch >= 'A' && ch <= 'Z':
+        fmt.Println("Uppercase")
+    case ch >= 'a' && ch <= 'z':
+        fmt.Println("Lowercase")
+    case ch >= '0' && ch <= '9':
+        fmt.Println("Digit")
+    default:
+        fmt.Println("Special Character")
+    }
 }
